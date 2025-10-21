@@ -28,13 +28,5 @@ Output: [7]
 - `-1000 <= nums[i] <= 1000`
 - `1 <= k <= number of distinct elements in nums`
 
-## Solution
-
-Uses bucket sort approach:
-1. Count frequency of each element using hash map
-2. Create buckets where index represents frequency
-3. Iterate buckets from highest to lowest frequency
-4. Collect elements until we have k elements
-
 **Time Complexity:** O(n)  
 **Space Complexity:** O(n)
