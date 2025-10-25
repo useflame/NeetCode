@@ -57,3 +57,4 @@ const board2 = [
 
 console.log(isValidSudoku(board1) === true)
 console.log(isValidSudoku(board2) === false)
+
